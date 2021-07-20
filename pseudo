@@ -1,0 +1,56 @@
+PICO Test assignment
+ciaranmaher@gmail.common
+[ec2-user@ip-172-31-39-226 ~]$ python3 --version
+Python 3.9.2
+[ec2-user@ip-172-31-39-226 ~]$ git --version
+git version 2.27.0
+[ec2-user@ip-172-31-39-226 ~]$
+
+
+Convert JUNIT xml to Elastisearch consumable JSON
+
+
+{
+   "job_number": "integer",
+   "brand": "string",
+   "revision": "integer",
+   "runtype": "string",
+   "category": "string",
+   "job_name": "string",
+   "file": "string",
+   "name": "string",
+   "timestamp": "timestamp",
+   "classname": "string",
+   "testname": "string",
+   "duration": "numeric",
+   "skipped": "boolean",
+   "passed": "boolean",
+   "starttime": "timestamp",
+   "stdout": "string",
+   "stderr": "string",
+   "id": "string"
+}
+
+id - a unique id based on the testcase. This ID should be reproducible
+
+xml to string object
+
+calculate derived data
+
+create string array of imported xml objects
+
+print string array to json object
+
+
+open an xml file
+xml file to string objects
+open properties file
+property file to string object
+
+reformat xml string object to build correct layout
+add reformatted xml string object to json builder
+add property string object to json builder
+generate unique id (must be reproducible based on given values)
+add id to json builder
+
+dump json to file writer

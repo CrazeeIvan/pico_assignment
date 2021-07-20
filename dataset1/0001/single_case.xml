@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.24">
+  <suites>
+    <suite>
+      <file>/home/jenkins/workspace/Backend/CMC@3/test-results/TEST-cli-TestDecoderConfig.xml</file>
+      <name>cli.TestDecoderConfig</name>
+      <stdout>Test skipped on the Central Manager
+.Test skipped on the Central Manager
+.Test skipped on the Central Manager
+.Test skipped on the Central Manager
+.Test skipped on the Central Manager
+.Test skipped on the Central Manager
+.Test skipped on the Central Manager
+.Test skipped on the Central Manager
+.Test skipped on the Central Manager
+.</stdout>
+      <stderr></stderr>
+      <duration>4276.663</duration>
+      <timestamp>2019-05-07T12:32:25.585391</timestamp>
+      <time>0.001</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>TestDecoderConfig</className>
+          <testName>TestCase04.test01</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>21732.082</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>
