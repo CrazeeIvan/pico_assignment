@@ -11,6 +11,8 @@ Successfully installed xmltodict-0.12.0
 
 Convert JUNIT xml to Elastisearch consumable JSON
 
+Create a base dict object with the values from the junit xml_file
+Foreach case element in the dict, create a new json file with the relevant info
 
 {
    "job_number": "integer",
