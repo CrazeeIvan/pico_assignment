@@ -58,3 +58,27 @@ generate unique id (must be reproducible based on given values)
 add id to json builder
 
 dump json to file writer
+
+
+Handle output type - done
+  To folder or to stdout
+  check output folder already exists
+Handle single suite use-case - done
+Fix bug with os.walk combining the wrong properties with each xml - done
+  It's using the previous properties with the next xml as it reads the xml first
+Include the errorStackTrace if test failed/errored. - done
+Remove target folder from job_number to only include number - done
+Calculate unique reproducible ID - done
+
+calculate the duration of each test
+add comments
+
+
+ensure that the json is searchable and valid for loading into elasticsearch
+
+
+type enforcement
+  ensure that xml input file is valid
+
+refactor to use methods
+refactor to use classes
